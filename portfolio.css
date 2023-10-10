@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100vh;
+  font-family: "Trebuchet MS",
+    "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  font-size: 125%;
+  font-weight: lighter;
+}
+
+body {
+  background-color: teal;
+}
+
+nav {
+  margin-right: 50px;
+  margin-top: 15px;
+  float: right;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 90%;
+  padding-bottom: 3px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.25s;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid black;
+}
+
+main {
+  position: absolute;
+  top: 42.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1 {
+  color: rgb(3, 65, 34);
+  font-size: 240%;
+}
+
+h3 {
+  color: white;
+  font-weight: lighter;
+}
+
+.icon {
+  font-size: 180%;
+  padding: 5px 20px;
+  border: 3px solid black;
+  border-radius: 200px;
+
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: border-color 0.15s,
+    color 0.3s;
+}
+
+.icon:hover {
+  border-color: white;
+  color: white;
+}
